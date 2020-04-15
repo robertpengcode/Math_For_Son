@@ -1,0 +1,21 @@
+.questionsList {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.2rem auto;
+}
+
+.answerList {
+    width: 90%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
+    border-top: 1px dotted black;
+}
+
+.answers {
+    margin: 0 0.3rem;
+}

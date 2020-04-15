@@ -1,0 +1,28 @@
+.selections {
+    width: 90%;
+    background-color: lightblue;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.selectionsList {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem auto;
+    align-items: center;
+
+}
+
+.oneSelection {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 0.3rem;
+    width: 150px;
+    height: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
