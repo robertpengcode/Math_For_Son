@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Math_For_Son/public/static/css/main.8cef823d.chunk.css",
-    "main.js": "/Math_For_Son/public/static/js/main.d6291a78.chunk.js",
-    "main.js.map": "/Math_For_Son/public/static/js/main.d6291a78.chunk.js.map",
-    "runtime-main.js": "/Math_For_Son/public/static/js/runtime-main.dda06266.js",
-    "runtime-main.js.map": "/Math_For_Son/public/static/js/runtime-main.dda06266.js.map",
-    "static/js/2.1c98d2f9.chunk.js": "/Math_For_Son/public/static/js/2.1c98d2f9.chunk.js",
-    "static/js/2.1c98d2f9.chunk.js.map": "/Math_For_Son/public/static/js/2.1c98d2f9.chunk.js.map",
-    "index.html": "/Math_For_Son/public/index.html",
-    "precache-manifest.4e63c11901d26d2d790644a33917af75.js": "/Math_For_Son/public/precache-manifest.4e63c11901d26d2d790644a33917af75.js",
-    "service-worker.js": "/Math_For_Son/public/service-worker.js",
-    "static/css/main.8cef823d.chunk.css.map": "/Math_For_Son/public/static/css/main.8cef823d.chunk.css.map",
-    "static/js/2.1c98d2f9.chunk.js.LICENSE.txt": "/Math_For_Son/public/static/js/2.1c98d2f9.chunk.js.LICENSE.txt"
+    "main.css": "/Math_For_Son/static/css/main.8cef823d.chunk.css",
+    "main.js": "/Math_For_Son/static/js/main.dea6d5c4.chunk.js",
+    "main.js.map": "/Math_For_Son/static/js/main.dea6d5c4.chunk.js.map",
+    "runtime-main.js": "/Math_For_Son/static/js/runtime-main.a28fc860.js",
+    "runtime-main.js.map": "/Math_For_Son/static/js/runtime-main.a28fc860.js.map",
+    "static/js/2.1c98d2f9.chunk.js": "/Math_For_Son/static/js/2.1c98d2f9.chunk.js",
+    "static/js/2.1c98d2f9.chunk.js.map": "/Math_For_Son/static/js/2.1c98d2f9.chunk.js.map",
+    "index.html": "/Math_For_Son/index.html",
+    "precache-manifest.acd988c1407599c6777bc3eb60c3a81b.js": "/Math_For_Son/precache-manifest.acd988c1407599c6777bc3eb60c3a81b.js",
+    "service-worker.js": "/Math_For_Son/service-worker.js",
+    "static/css/main.8cef823d.chunk.css.map": "/Math_For_Son/static/css/main.8cef823d.chunk.css.map",
+    "static/js/2.1c98d2f9.chunk.js.LICENSE.txt": "/Math_For_Son/static/js/2.1c98d2f9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dda06266.js",
+    "static/js/runtime-main.a28fc860.js",
     "static/js/2.1c98d2f9.chunk.js",
     "static/css/main.8cef823d.chunk.css",
-    "static/js/main.d6291a78.chunk.js"
+    "static/js/main.dea6d5c4.chunk.js"
   ]
 }
