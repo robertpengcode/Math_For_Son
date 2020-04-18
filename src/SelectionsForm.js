@@ -17,7 +17,7 @@ class Selections extends Component {
         let { operator, firstDigit, secondDigit } = this.state;
         firstDigit = Number(firstDigit);
         secondDigit = Number(secondDigit);
-        this.props.generateQuestions(operator, firstDigit, secondDigit);
+        this.props.generateQuestions(operator, firstDigit, secondDigit, 20);
     }
 
     render() {
@@ -36,17 +36,17 @@ class Selections extends Component {
                     <label>First Number&nbsp;
                     <select className='oneSelection' value={firstDigit}
                     onChange={ ev => this.setState({firstDigit: ev.target.value })}>
-                        <option value='1'>One Digit</option>
-                        <option value='2'>Two Digits</option>
-                        <option value='3'>Three Digits</option>
+                        <option value='1'>1-Digit</option>
+                        <option value='2'>2-Digit</option>
+                        <option value='3'>3-Digit</option>
                     </select>
                     </label>
                     <label>Second Number&nbsp;
                     <select className='oneSelection' value={secondDigit}
                     onChange={ ev => this.setState({secondDigit: ev.target.value })}>
-                        <option value='1'>One Digit</option>
-                        <option value='2'>Two Digits</option>
-                        <option value='3'>Three Digits</option>
+                        <option value='1'>1-Digit</option>
+                        <option value='2'>2-Digit</option>
+                        <option value='3'>3-Digit</option>
                     </select>
                     </label>
                     <button className='button' >Generate Questions</button>

@@ -19,10 +19,20 @@
     cursor: pointer;
 }
 
+.oneSelection:hover {
+    font-size: 1.5rem;
+}
+
 .button {
     border-radius: 0.3rem;
-    width: 150px;
-    height: 30px;
+    width: 10rem;
+    height: 2.5rem;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.button:hover {
+    font-size: 1.1rem;
+    width: 11rem;
+    height: 2.7rem;
 }

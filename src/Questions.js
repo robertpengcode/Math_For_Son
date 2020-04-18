@@ -2,14 +2,14 @@ import React from 'react';
 import QuestionCard from './QuestionCard';
 import './Questions.css';
 
-const Questions = ({questions}) => {
+const Questions = ({questions, generateQuestions}) => {
     
     return (
         <div>
             <ul className='questionsList'>
                 {
                 questions.map(question => <QuestionCard
-                key={question.id} question={question}/>)
+                key={question.id} question={question} generateQuestions={generateQuestions}/>)
                 }
             </ul>
             <ul className='answerList'><span>Answers: </span>

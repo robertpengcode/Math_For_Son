@@ -13,8 +13,7 @@ class App extends Component{
       this.generateQuestions = this.generateQuestions.bind(this);
   }
 
-  generateQuestions(operator, firstDigit, secondDigit) {
-    //ev.preventDefault();
+  generateQuestions(operator, firstDigit, secondDigit, howMany, changeId) {
     let firstNumbers = 0;
     let firstStart = 0;
     let secondNumbers = 0;
@@ -43,7 +42,7 @@ class App extends Component{
     } 
 
     let questions = [];
-    for (let i = 1; i <= 20; i++) {
+    for (let i = 1; i <= howMany; i++) {
       let aQuestion = {};
       let switchNumber = 0;
       let firstNum = Math.floor(Math.random() * firstNumbers) + firstStart; 
@@ -68,15 +67,28 @@ class App extends Component{
         default:
           console.log('Sorry, please pick a valid operator!');
       }
-       
-      aQuestion.id = i;
+      if (howMany > 1) {
+        aQuestion.id = i;
+      } else {
+        aQuestion.id = changeId;
+      }
       aQuestion.operator = operator;
       aQuestion.firstNum = firstNum; 
       aQuestion.secondNum = secondNum;  
       aQuestion.answer = answer;
+      aQuestion.firstDigit = firstDigit;
+      aQuestion.secondDigit = secondDigit;
       questions.push(aQuestion);
     }
-    this.setState( {questions: questions} );
+    if (howMany > 1) {
+      this.setState( {questions: questions} );
+    } 
+    else {
+      let updateQuestions = [...this.state.questions];
+      let updateIndex = changeId - 1;
+      updateQuestions.splice(updateIndex, 1, questions[0]);
+      this.setState( {questions: updateQuestions} );
+    }
   }
 
   render() {
@@ -88,7 +100,7 @@ class App extends Component{
           <h1>Noah's Math Questions</h1>
           <Selections generateQuestions = {generateQuestions}/>
         </header>
-        <Questions questions = {questions}/>
+        <Questions questions = {questions} generateQuestions = {generateQuestions}/>
       </div>
     );
   }
