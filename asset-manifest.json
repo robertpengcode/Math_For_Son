@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Math_For_Son/static/css/main.9a1918ef.chunk.css",
-    "main.js": "/Math_For_Son/static/js/main.d9b81134.chunk.js",
-    "main.js.map": "/Math_For_Son/static/js/main.d9b81134.chunk.js.map",
+    "main.css": "/Math_For_Son/static/css/main.1f09ff1b.chunk.css",
+    "main.js": "/Math_For_Son/static/js/main.0c3fa106.chunk.js",
+    "main.js.map": "/Math_For_Son/static/js/main.0c3fa106.chunk.js.map",
     "runtime-main.js": "/Math_For_Son/static/js/runtime-main.a28fc860.js",
     "runtime-main.js.map": "/Math_For_Son/static/js/runtime-main.a28fc860.js.map",
-    "static/js/2.1c98d2f9.chunk.js": "/Math_For_Son/static/js/2.1c98d2f9.chunk.js",
-    "static/js/2.1c98d2f9.chunk.js.map": "/Math_For_Son/static/js/2.1c98d2f9.chunk.js.map",
+    "static/js/2.2d58ffe1.chunk.js": "/Math_For_Son/static/js/2.2d58ffe1.chunk.js",
+    "static/js/2.2d58ffe1.chunk.js.map": "/Math_For_Son/static/js/2.2d58ffe1.chunk.js.map",
     "index.html": "/Math_For_Son/index.html",
-    "precache-manifest.edb28c913b389f8e6c681fc020b9e0cd.js": "/Math_For_Son/precache-manifest.edb28c913b389f8e6c681fc020b9e0cd.js",
+    "precache-manifest.6848ad18cd18833b209619d2cb4fdd27.js": "/Math_For_Son/precache-manifest.6848ad18cd18833b209619d2cb4fdd27.js",
     "service-worker.js": "/Math_For_Son/service-worker.js",
-    "static/css/main.9a1918ef.chunk.css.map": "/Math_For_Son/static/css/main.9a1918ef.chunk.css.map",
-    "static/js/2.1c98d2f9.chunk.js.LICENSE.txt": "/Math_For_Son/static/js/2.1c98d2f9.chunk.js.LICENSE.txt"
+    "static/css/main.1f09ff1b.chunk.css.map": "/Math_For_Son/static/css/main.1f09ff1b.chunk.css.map",
+    "static/js/2.2d58ffe1.chunk.js.LICENSE.txt": "/Math_For_Son/static/js/2.2d58ffe1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a28fc860.js",
-    "static/js/2.1c98d2f9.chunk.js",
-    "static/css/main.9a1918ef.chunk.css",
-    "static/js/main.d9b81134.chunk.js"
+    "static/js/2.2d58ffe1.chunk.js",
+    "static/css/main.1f09ff1b.chunk.css",
+    "static/js/main.0c3fa106.chunk.js"
   ]
 }
